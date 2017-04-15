@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zcc.mobileplayer.activity.MainActivity">
+    <include layout="@layout/titlebar"/>
+    <FrameLayout
+        android:id="@+id/fl_main"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:orientation="horizontal"
+        android:background="#11000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_local_vedio"
+            android:drawableTop="@drawable/rb_localvedio_selector"
+            android:text="本地视频"
+            style="@style/RGStyle"
+             />
+        <RadioButton
+            android:id="@+id/rb_local_music"
+            android:drawableTop="@drawable/rb_localmusic_selector"
+            android:text="本地音乐"
+            style="@style/RGStyle"
+            />
+        <RadioButton
+            android:id="@+id/rb_net_vedio"
+            android:drawableTop="@drawable/rb_netvedio_selector"
+            android:text="网络视频"
+            style="@style/RGStyle"
+            />
+        <RadioButton
+            android:id="@+id/rb_net_music"
+            android:drawableTop="@drawable/rb_netmusic_selector"
+            android:text="百思不得姐"
+            style="@style/RGStyle"
+            />
+    </RadioGroup>
+</LinearLayout>
