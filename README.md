@@ -9,3 +9,7 @@
 
 
 ![](https://github.com/zhuchaochao/Images/raw/master/MobilePlayer/localVideo.gif)
+![](https://github.com/zhuchaochao/Images/raw/master/MobilePlayer/SystemVideoPlayer.gif)
+![](https://github.com/zhuchaochao/Images/raw/master/MobilePlayer/netVideo.gif)
+![](https://github.com/zhuchaochao/Images/raw/master/MobilePlayer/budejie.gif)
+![](https://github.com/zhuchaochao/Images/raw/master/MobilePlayer/doubleClickBack.gif)
