@@ -7,6 +7,7 @@
   ## 演示说明：
 * 主体框架是一个FrameLayout，四个Fragment，通过点击RidioButton,使用自定义switchPager(Fragment fromPage, BasePage nextPage)方法切换不同Fragment。
 *switchPager方法如下：
+```java
  private void switchPager(Fragment fromPage, BasePage nextPage) {
         if(tempPager != nextPage){
             tempPager = nextPage;
@@ -28,6 +29,7 @@
     }
 *视频播放器做了两个，一个是自己封装的系统播放器，另一个是使用Vitamio的。
 * 本地视频和本地音乐是通过使用系统提供的contentResolver类，查找URI为MediaStore.Video.Media.EXTERNAL_CONTENT_URI的数据。主要代码如下：
+  ```java
   private void getDataFromLocal() {
         new Thread(){
             @Override
