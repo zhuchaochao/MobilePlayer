@@ -28,9 +28,9 @@
         }
     }
 ```
-*视频播放器做了两个，一个是自己封装的系统播放器，另一个是使用Vitamio的。
+* 视频播放器做了两个，一个是自己封装的系统播放器，另一个是使用Vitamio的。
 * 本地视频和本地音乐是通过使用系统提供的contentResolver类，查找URI为MediaStore.Video.Media.EXTERNAL_CONTENT_URI的数据。主要代码如下：
-  ```java
+```java
   private void getDataFromLocal() {
         new Thread(){
             @Override
@@ -78,12 +78,11 @@
             }
         }.start();
     }
- ```
+```
 * 网络视频和百思不得姐模块请求网络数据使用的框架是xutil。
-
-
 ```
 ```
+
   ## 演示 
 
 
